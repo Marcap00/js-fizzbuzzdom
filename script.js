@@ -8,12 +8,19 @@
 6.Stampiamo in pagina gli elementi
 */
 
+
+/* Fase preparatoria */
+const result = document.getElementById('result');
+
 /* Fase di elaborazione */
+let text = 0
 for (let i = 1; i <= 100; i++ ) {
-    if (i % 3 === 0) {
-        /* i = 'Fizz'; */
-    } else if (i % 5 === 0){
-        /* i = 'Buzz'; */
-    }
-    console.log('numero', i);
+    text = i;
+    
+    if (i % 3 === 0) text = 'Fizz';
+    else if (i % 5 === 0) text = 'Buzz';
+        
+    if (i % 3 === 0 && i % 5 === 0) text = 'FizzBuzz';
+
+    console.log('text', text);
 }
