@@ -1,0 +1,31 @@
+/* # Generics */
+body {
+    background-color: #083b4c;
+}
+
+h1 { 
+    font-size: 3.5rem;
+}
+
+/* # Utilities */
+
+/* Square */
+.square {
+    height: 10vw;
+    width: 10vw;
+
+    background-color: #1389b2;
+}
+
+/* Backgrounds */
+.bg-fizz {
+    background-color: #0bd6a0;
+}
+
+.bg-fizzbuzz {
+    background-color: #f0466f;
+}
+
+.bg-buzz {
+    background-color: #ffd166;
+}
